@@ -325,7 +325,13 @@ p,a{
     margin-top: 10px;
 }
 .info i{
-    color: #0065fc; 
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color: #0065fc;
+    border-radius: 100%;
+    text-align: center;
+    border: 2px solid #f2f2f2;
     padding-right: 10px;
 }
 @media all and (min-width: 320px) and (max-width: 480px){
