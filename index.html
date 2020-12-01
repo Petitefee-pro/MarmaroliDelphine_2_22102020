@@ -3,7 +3,7 @@
     <!--Head-->
     <head>
         <meta charset="utf-8"/>
-        <meta name="viewport" content="width=375px"/>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
         <meta name="site d'hébergements de vacances" content="plusieurs hébergements à réserver, pour des séjours, en ville ou à la campagne"/>
         <meta property="og:title" content="reservia"/>
         <meta property="og:type" content="website"/>
@@ -21,21 +21,21 @@
             <header>
                 <!--Menu-->
                 <div class="menu">
-                    <div>
-                        <a href="#hebergement">Hébergements</a>
-                    </div>
-                    <div>
-                        <a href="#activite">Activités</a>
-                    </div>
-                    <div>
-                        <a href="#inscription" id="font-inscription">S'inscrire</a>
-                    </div>
-                </div>
-                <!--Header / logo / text-->
-                <div class="header">
                     <div class="logo">
                         <img src="images/logo/Reservia@3x.png" alt="logo Reservia"/>
                     </div>
+                    <div class="nav">
+                        <a href="#hebergement">Hébergements</a>
+                    </div>
+                    <div class="nav">
+                        <a href="#activite">Activités</a>
+                    </div>
+                    <div class="nav">
+                        <a href="#inscription" id="font-inscription">S'inscrire</a>
+                    </div>
+                </div>
+                <!--Hearder-->                
+                <div class="header">                    
                     <div class="header-texte">
                         <h1>Trouvez votre hébergement pour des vacances de rêve</h1> 
                         <p>En plein centre ville ou en pleine nature</p>  
@@ -43,13 +43,14 @@
                 </div>
                 <!--Formulaire-->
                 <div class="formulaire">
-                    <div>
+                    <div class="icon-map">
                         <i class="fas fa-map-marker-alt fa-1x"></i>
                     </div>
-                    <div>
+                    <div class="formulaire-input">
                         <form method="post" action ="traitement.php">
                             <input type="text" name="ville" id="ville" placeholder="Marseille, France" maxlength="100" autofocus/>
                             <input type="submit" value="Rechercher" id="rechercher"/>
+                            <span class="input-icon"><i class="fas fa-search"></i></span>
                         </form>
                     </div>                          
                 </div>
@@ -158,7 +159,12 @@
                     <!--Les plus populaires-->
                     <div class="populaire">
                         <div class="populaire-title">
-                            <h2>Les plus populaires<i class="fas fa-chart-line"></i></h2>
+                            <div>
+                                <h2>Les plus populaires</h2>
+                            </div>
+                            <div>
+                                <i class="fas fa-chart-line"></i>
+                            </div>
                         </div>
                         <div class="populaire-photo">    
                             <a href="">
