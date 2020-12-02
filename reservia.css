@@ -215,9 +215,9 @@ p,a{
         justify-content: center;
         align-items: center;
         align-content: center;
-        width: 330px;
+        width: 375px;
         height: 80px;
-        margin: 0 20px 0 20px;
+        margin: 0 0 0 20px;
     }
     .formulaire-input{
         height: 50px;
@@ -226,12 +226,11 @@ p,a{
         display: none;
     }
     #ville{
-        width: 230px;
+        width: 220px;
     }
     .input-icon{
        display: flex;
        justify-content: center;
-        text-align: center;
         height: 50px; 
         width: 50px;   
         color: white;
