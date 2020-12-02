@@ -207,7 +207,7 @@ p,a{
     text-decoration: none;
     cursor: pointer;    
 }
-.input-icon{
+.button-icone{
     display: none;
 }
 @media all and (max-width: 600px){
@@ -228,7 +228,7 @@ p,a{
     #ville{
         width: 220px;
     }
-    .input-icon{
+    .button-icone{
        display: flex;
        justify-content: center;
         height: 50px; 
@@ -240,8 +240,8 @@ p,a{
         text-decoration: none;
         cursor: pointer;   
     }
-    .input-icon i{
-        line-height: 46px;
+    .button-icone i{
+        line-height: 50px;
     }
 }
 /*Mise en forme des Filtres*/
