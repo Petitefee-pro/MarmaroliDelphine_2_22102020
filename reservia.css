@@ -193,7 +193,7 @@ p,a{
     font-weight: bold;
     padding-left: 10px;
 }
-#rechercher{
+.formulaire-input button{
     text-align: center;
     font-weight: bold;
     font-size: 16px;
@@ -217,9 +217,10 @@ p,a{
         align-content: center;
         width: 375px;
         height: 80px;
-        margin: 0 0 0 20px;
+        margin: 0;
     }
     .formulaire-input{
+        width: 280px;
         height: 50px;
     }
     #rechercher{
@@ -229,6 +230,9 @@ p,a{
         width: 220px;
     }
     .button-icone{
+        display: flex;
+    }
+    .formulaire-input button{
        display: flex;
        justify-content: center;
         height: 50px; 
@@ -239,6 +243,7 @@ p,a{
         border: none;    
         text-decoration: none;
         cursor: pointer;   
+        margin: 0;
     }
     .button-icone i{
         line-height: 50px;
@@ -303,7 +308,7 @@ p,a{
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        width: 350px;
+        width: 375px;
         height: auto;
     }
     .filtres-button-texte{        
@@ -620,7 +625,7 @@ p,a{
         justify-content: center;
         align-items: center;
         height: 580px;
-        width: 355px;
+        width: 375px;
         margin: 40px 0 0 0;
         padding: 0 20px 20px 20px;
         border-radius: 0;
@@ -755,7 +760,7 @@ p,a{
 }
 @media all and (max-width: 600px){
     #activite{
-        width: 340px;
+        width: 375px;
         height: 1370px;        
         margin: 0 20px 0 20px;
     }
@@ -929,7 +934,7 @@ p,a{
     .propos{
         flex-direction: column;  
         justify-content: flex-start;      
-        width: 355px;
+        width: 375px;
         height: 490px;      
         margin: 0; 
         padding-left: 20px;
