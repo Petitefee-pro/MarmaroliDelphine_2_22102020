@@ -304,7 +304,7 @@ p,a{
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        width: 375px;
+        width: 355px;
         height: auto;
     }
     .filtres-button-texte{        
@@ -761,7 +761,7 @@ p,a{
 }
 @media all and (max-width: 600px){
     #activite{
-        width: 375px;
+        width: 355px;
         height: 1370px;        
         margin: 0 20px 0 20px;
     }
