@@ -45,6 +45,11 @@ p,a{
 @media all and (min-width: 600px) and (max-width: 1024px){
     .body{
         max-width: 600px;
+        margin: 0 auto;
+    }
+    footer{
+        max-width: 600px;
+        margin: 0 auto;
     }
 }
 /*Mise en forme Menu*/
@@ -510,7 +515,7 @@ p,a{
 @media all and (min-width: 600px) and (max-width: 1024px){
     .section-1{
         flex-direction: column;
-        width: 500px;
+        width: 600px;
         height: auto;
     }
     .hebergement-title{
@@ -671,7 +676,7 @@ p,a{
     .populaire{
         justify-content: center;
         align-items: center;
-        width: 500px;
+        width: 600px;
         margin: 20px 0 0 0;
     }
     .activite-title{
@@ -816,15 +821,17 @@ p,a{
 }
 @media all and (min-width: 600px) and (max-width: 1024px){
     #activite{
-        width: 500px;
+        width: 100%;
         height: auto;
         margin: 0 auto;
+        justify-content: center;
+        align-items: center;
     }
     .activite-photo{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        width: 500px;
+        width: 600px;
         height: auto;
         margin: 0;
     }
@@ -871,7 +878,7 @@ p,a{
 }
 @media all and (min-width: 1024px) and (max-width: 1270px){
     #activite{
-        width: 500px;
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
@@ -927,6 +934,7 @@ p,a{
 /*Mise en forme Section 3 / A propos*/
 .propos{
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     background-color: #f2f2f2;
     height: 215px;  
@@ -955,13 +963,13 @@ p,a{
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        width: 580px;
+        width: 100%;
         height: auto; 
         margin-top: 20px;
     }
     .propos-texte{
-        padding-left: 50px;
-        width: 240px;
+        padding-left: 200px;
+        width: 500px;
     }
     
 }
